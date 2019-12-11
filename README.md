@@ -311,15 +311,22 @@ print(succounter, "succesfully download")
 
 ### 4.3.1.  **적용 모델 컴퓨터 사양**
 1.1 OS : Windows 10 Home
+<br>
 1.2 GPU : GeForce-1080Ti
+<br>
 1.3 CPU : intel(R) Core(TM) i7-7700K
+<br>
 1.4 RAM : 32GB
+<br>
 1.5 시스템 종류 : 64비트 운영체제, x64 기반 프로세서
 
 ### 4.3.2  **학습에 필요한 프로그램 설치**
 2.1 MS Visual Studio 2015(v140) : https://go.microsoft.com/fwlink/?LinkId=532606&clcid=0x409
+<br>
 2.2 CUDA 9.1 : https://developer.nvidia.com/cuda-91-download-archive
+<br>
 2.3 cuDNN 7.0 : https://developer.nvidia.com/cudnn
+<br>
 2.4 OpenCV 3.3.0 : https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.3.0/opencv-3.3.0-vc14.exe/download
 <br>
 
@@ -338,6 +345,7 @@ print(succounter, "succesfully download")
 <img  src = "https://user-images.githubusercontent.com/48505947/70607119-36704200-1c41-11ea-977a-f9e45ccd6927.PNG"  width = "550px"></img>
 
 4.2 Command
+<br>
 	```shell
 	$ mkdir /c/yolo
 	$ cd /c/yolo

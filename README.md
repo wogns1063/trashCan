@@ -51,6 +51,7 @@
 
 ### 2.1 OpenCV란?
 ![OpenCV](https://user-images.githubusercontent.com/48484193/70624096-df7b6480-1c62-11ea-9fda-ce191593a90e.PNG) 
+<br>
 [사진출처] <https://ko.wikipedia.org/wiki/OpenCV>
 
 실시간 컴퓨터 비전을 목적으로 실시간 이미지 프로세싱에 중점을 둔 라이브러리이다.
@@ -75,9 +76,7 @@ C/C++ 프로그래밍 언어로 개발 되었으며 Python, Java 및 MATLAB에�
 
 
 아래의 주소로 들어가 진행하면 설치를 완료할 수 있다.
-
 <br>
-
 <https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/>
 
 <br/>

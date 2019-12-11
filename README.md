@@ -122,11 +122,11 @@ $ sudo shutdown -h now
 
 (a) PiCam 연결 커넥터(CSI) 위치
 카메라  전용 인터페이스로 설계된 CSI-2(camera serial interface 2) 카메라 커넥터로 Pi에 연결된다.
-![파이캠2](https://user-images.githubusercontent.com/48484193/70625801-89102500-1c66-11ea-8771-840bd0f6897a.PNG)   ![파이캠3](https://user-images.githubusercontent.com/48484193/70626358-9c6fc000-1c67-11ea-8c22-b4a670968b2f.PNG =440x)
+![파이캠2](https://user-images.githubusercontent.com/48484193/70625801-89102500-1c66-11ea-8771-840bd0f6897a.PNG)   ![파이캠3](https://user-images.githubusercontent.com/48484193/70626358-9c6fc000-1c67-11ea-8c22-b4a670968b2f.PNG)
 [사진출처] <https://kocoafab.cc/tutorial/view/334>
 
 (b) 고정 클립을 들어 올리고 CSI-2 인터페이스에 리본 케이블 끼우기
-![파이캠6](https://user-images.githubusercontent.com/48484193/70627389-8105b480-1c69-11ea-9328-006829a8b0f1.PNG)![파이캠7](https://user-images.githubusercontent.com/48484193/70627480-a1357380-1c69-11ea-84dc-11342cec00bb.PNG =210x)
+![파이캠6](https://user-images.githubusercontent.com/48484193/70627389-8105b480-1c69-11ea-9328-006829a8b0f1.PNG)![파이캠7](https://user-images.githubusercontent.com/48484193/70627480-a1357380-1c69-11ea-84dc-11342cec00bb.PNG)
 이 과정을 완료하면 전원을 연결한다.
 
 ### 3.3 PiCam 테스트

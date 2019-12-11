@@ -345,16 +345,10 @@ print(succounter, "succesfully download")
 <img  src = "https://user-images.githubusercontent.com/48505947/70607119-36704200-1c41-11ea-977a-f9e45ccd6927.PNG"  width = "550px"></img>
 
 4.2 Command
-<br>
-	```
-	$ mkdir /c/yolo
-	<br>
-	$ cd /c/yolo
-	<br>
-	$ git clone https://github.com/AlexeyAB/darknet.git
-	<br>
-	$ git clone https://github.com/AlexeyAB/Yolo_mark.git
-	```
+	(1). mkdir /c/yolo <br>
+	(2). cd /c/yolo <br>
+	(3). git clone https://github.com/AlexeyAB/darknet.git <br>
+	(4). git clone https://github.com/AlexeyAB/Yolo_mark.git <br>
 	
 4.3 Result
 <img  src = "https://user-images.githubusercontent.com/48505947/70607600-15f4b780-1c42-11ea-89cc-c325a5035320.png"  width = "800px" ></img>

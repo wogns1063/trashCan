@@ -347,10 +347,10 @@ print(succounter, "succesfully download")
 4.2 Command
 <br>
 	```
-	$ mkdir /c/yolo
-	$ cd /c/yolo
-	$ git clone https://github.com/AlexeyAB/darknet.git
-	$ git clone https://github.com/AlexeyAB/Yolo_mark.git
+	 $ mkdir /c/yolo
+	 $ cd /c/yolo
+	 $ git clone https://github.com/AlexeyAB/darknet.git
+	 $ git clone https://github.com/AlexeyAB/Yolo_mark.git
 	```
 	
 4.3 Result

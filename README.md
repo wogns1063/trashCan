@@ -263,7 +263,7 @@ browser.get(url)
 
 <img  src="https://user-images.githubusercontent.com/48309721/70614750-6d992000-1c4e-11ea-9b47-5f23466d61aa.PNG" width="700">
 
-![딥러닝](https://user-images.githubusercontent.com/41332126/70641459-ffba1c00-1c80-11ea-9db9-60f8d3d4fd90.gif =700x)
+![딥러닝](https://user-images.githubusercontent.com/41332126/70641459-ffba1c00-1c80-11ea-9db9-60f8d3d4fd90.gif)
 <br>
 > 코드 2
 ```python
@@ -347,10 +347,10 @@ print(succounter, "succesfully download")
 4.2 Command
 <br>
 	```
-	 $ mkdir /c/yolo
-	 $ cd /c/yolo
-	 $ git clone https://github.com/AlexeyAB/darknet.git
-	 $ git clone https://github.com/AlexeyAB/Yolo_mark.git
+	$ mkdir /c/yolo
+	$ cd /c/yolo
+	$ git clone https://github.com/AlexeyAB/darknet.git
+	$ git clone https://github.com/AlexeyAB/Yolo_mark.git
 	```
 	
 4.3 Result

@@ -342,9 +342,10 @@ print(succounter, "succesfully download")
 
 ### 4.3.4.  **install YOLO-Marker, darknet from git**
 4.1 Git Bash Run
+<br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70607119-36704200-1c41-11ea-977a-f9e45ccd6927.PNG"  width = "550px"></img>
 
-4.2 Command
+4.2 Command <br>
 	(1). mkdir /c/yolo <br>
 	(2). cd /c/yolo <br>
 	(3). git clone https://github.com/AlexeyAB/darknet.git <br>
@@ -368,19 +369,16 @@ print(succounter, "succesfully download")
 <img  src = "https://user-images.githubusercontent.com/48505947/70609710-9b2d9b80-1c45-11ea-9ace-b9c9f1486aac.png"   height="250px"></img>
 - yolo_mark -> Project -> Properties 클릭
 <img  src = "https://user-images.githubusercontent.com/48505947/70610140-61a96000-1c46-11ea-96da-812bc7f6c6c4.png"  width = "640px"  height="350px"></img>
-- yolo_mark Property Pages
-	(1) Configuration : Active(Release), Platform : Active(x64)
-	
+- yolo_mark Property Pages<br>
+
+	(1) Configuration : Active(Release), Platform : Active(x64)	
 	(2) VC++ Directories
 	- Include Directories : C:\opencv\build\include;
 	- Library Directories : C:\opencv\build\x64\vc14\lib;
-	
 	(3) C/C++ -> General
 	- Additional Include Directories : C:\opencv\build\include;
-	
 	(4) Linker -> General
 	- Additional Library Directories : C:\opencv\build\x64\vc14\lib;
-		
 	(5) Linker -> Input
 	- Additional Dependencies : opencv_world330.lib;opencv_world330d.lib
 	- 컴파일시 OpenCV Library 를 사용하기 위해 설정.

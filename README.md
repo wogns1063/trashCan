@@ -371,48 +371,67 @@ print(succounter, "succesfully download")
 <img  src = "https://user-images.githubusercontent.com/48505947/70609710-9b2d9b80-1c45-11ea-9ace-b9c9f1486aac.png"   height="250px"></img>
 - yolo_mark -> Project -> Properties 클릭
 <img  src = "https://user-images.githubusercontent.com/48505947/70610140-61a96000-1c46-11ea-96da-812bc7f6c6c4.png"  width = "640px"  height="350px"></img>
-- yolo_mark Property Pages<br>
-
+- yolo_mark Property Pages
+	<br>
 	(1) Configuration : Active(Release), Platform : Active(x64)	
+	<br>
 	(2) VC++ Directories
 	- Include Directories : C:\opencv\build\include;
 	- Library Directories : C:\opencv\build\x64\vc14\lib;
+	<br>
 	(3) C/C++ -> General
 	- Additional Include Directories : C:\opencv\build\include;
+	<br>
 	(4) Linker -> General
 	- Additional Library Directories : C:\opencv\build\x64\vc14\lib;
+	<br>
 	(5) Linker -> Input
 	- Additional Dependencies : opencv_world330.lib;opencv_world330d.lib
 	- 컴파일시 OpenCV Library 를 사용하기 위해 설정.
 <img  src = "https://user-images.githubusercontent.com/48505947/70619739-fae17200-1c58-11ea-849d-abee63197aea.png"  width = "700px"  height="550px"></img>
 
 - Yolo_mark.sln Build (ctrl+shift+B)
+<br>
 (1) cd opencv build x64 vc14 bin
+<br>
 (2) cp opencv_world330.dll, opencv_world330d.dll c:\/yolo/Yolo_mark/x64/Realease
+<br>
 (3) cd c:/yolo/Yolo_mark/x64/Realease/data/img
-			- 해당 파일 샘플 이미지 모두 삭제(Delete all example image)
-			- 학습시키려는 이미지 모두 추가(Insert all image)
+	- 해당 파일 샘플 이미지 모두 삭제(Delete all example image)
+	- 학습시키려는 이미지 모두 추가(Insert all image)
+<br>
 (4) cd c:/yolo/Yolo_mark/x64/Release
+<br>
 (5) Yolo_mark.cmd run
+<br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70613853-bbad2400-1c4c-11ea-9252-dd21fefc9c1e.png"   height="350px"></img>
 
 1.3. Image Labeling
+<br>
 
-마우스로 사진의 좌표를 잡아준다.
+ - 마우스로 사진의 좌표를 잡아준다.
 <img  src = "https://user-images.githubusercontent.com/48505947/70614373-c4eac080-1c4d-11ea-9957-18a8dc77721e.PNG"  width = "600x"  height="500px"></img>
+<br>
 
-메모장에는 4꼭지점의 좌표로 저장된다.
+ - 메모장에는 4꼭지점의 좌표로 저장된다.
+ <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70614456-f4013200-1c4d-11ea-98e0-777a6e6a48f5.PNG"  height="130px"></img>
+<br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70614552-1430f100-1c4e-11ea-8196-5ea401248d5a.PNG"  width = "800px" ></img>
-
-C:\yolo\Yolo_mark\x64\Release\data 이동
+<br>
+ - C:\yolo\Yolo_mark\x64\Release\data 이동
+ <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70615181-47c04b00-1c4f-11ea-988f-93f6b1684162.PNG"  height="150px"></img>
+<br>
 
-obj.names 는 Class Name을 입력 (ex. take out cup을 Detecting 하기 위하여 Class Name을 take-out-cup으로 설정)
-obj.data는 Classes 갯수를 설정 (ex. take-out-cup Class 1개 이기 때문에 1로 설정)
+ - obj.names 는 Class Name을 입력 (ex. take out cup을 Detecting 하기 위하여 Class Name을 take-out-cup으로 설정)
+ <br>
+ - obj.data는 Classes 갯수를 설정 (ex. take-out-cup Class 1개 이기 때문에 1로 설정)
+ <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70615257-6b839100-1c4f-11ea-953f-e1d4d059c02a.png"  height="170px"></img>
-
+<br>
 Labeling 된 image의 경로는 train.txt에 자동 저장됨.
+<br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70615373-9a9a0280-1c4f-11ea-9cda-3834c061f691.PNG"  width = "230px" ></img>
 <br>
 

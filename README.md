@@ -264,7 +264,7 @@ browser.get(url)
 <img  src="https://user-images.githubusercontent.com/48309721/70614750-6d992000-1c4e-11ea-9b47-5f23466d61aa.PNG" width="700">
 
 ![딥러닝](https://user-images.githubusercontent.com/41332126/70641459-ffba1c00-1c80-11ea-9db9-60f8d3d4fd90.gif =700x)
-<br>
+
 > 코드 2
 ```python
 # 검색 결과를 늘리기 위하여 스크롤 다운
@@ -296,9 +296,7 @@ print(succounter, "succesfully download")
 1. chrome브라우저가 실행된 후 스크롤 다운 코드를 적용하여 자동으로 스크롤바를 내려가며 이미지를 저장할 수 있도록 해준다.
 2. 보여지는 페이지에서 이미지 파일을 저장하기 위해 해당 사이트의 태그를 분석해야 한다.
 3. 키보드의 [F12]키를 누르거나 브라우저 오른쪽 상단의 [메뉴→도구더보기→개발자 도구]를 클릭하여 이미지 부분에 해당하는 클래스명을 확인한다.
-<br>
 ![딥러닝1](https://user-images.githubusercontent.com/41332126/70642905-6cceb100-1c83-11ea-85a8-32ab2caff919.png)
-<br>
 4. 이미지를 'searchterm'과 동일한 폴더에 저장한다. 이때 폴더가 존재하지 않으면 자동으로 생성한다.
 
 ### 4.2.6 결과

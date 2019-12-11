@@ -348,8 +348,11 @@ print(succounter, "succesfully download")
 <br>
 	```
 	$ mkdir /c/yolo
+	<br>
 	$ cd /c/yolo
+	<br>
 	$ git clone https://github.com/AlexeyAB/darknet.git
+	<br>
 	$ git clone https://github.com/AlexeyAB/Yolo_mark.git
 	```
 	

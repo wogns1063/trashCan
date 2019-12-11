@@ -353,7 +353,9 @@ print(succounter, "succesfully download")
 	
 4.3 Result
 <img  src = "https://user-images.githubusercontent.com/48505947/70607600-15f4b780-1c42-11ea-89cc-c325a5035320.png"  width = "800px" ></img>
+<br>
 4.4 Insert Image Data
+<br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70608238-222d4480-1c43-11ea-834e-53138bcdb1b2.png"  width = "650px"  height="500px"></img>
 
 ## 4.4 윈도우 환경에서 Tiny YOLOv3 모델 이미지 학습

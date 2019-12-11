@@ -425,7 +425,6 @@ print(succounter, "succesfully download")
 <br>
 
  - obj.names 는 Class Name을 입력 (ex. take out cup을 Detecting 하기 위하여 Class Name을 take-out-cup으로 설정)
- <br>
  - obj.data는 Classes 갯수를 설정 (ex. take-out-cup Class 1개 이기 때문에 1로 설정)
  <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70615257-6b839100-1c4f-11ea-953f-e1d4d059c02a.png"  height="170px"></img>

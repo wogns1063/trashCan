@@ -26,7 +26,9 @@
 
 ### 1.2 라즈베리파이3 주요부 명칭
 
-![캡처15](https://user-images.githubusercontent.com/48484193/70630391-d8f2ea00-1c6e-11ea-84f8-08bfd5751790.PNG) [그림1]
+![캡처15](https://user-images.githubusercontent.com/48484193/70630391-d8f2ea00-1c6e-11ea-84f8-08bfd5751790.PNG) 
+
+[그림1]
 
 ### 1.3 라즈베리파이 연결하기
 
@@ -39,11 +41,14 @@
 5 | 디스플레이(TV or 모니터) | HDMI 또는 DVI 단자 있는 것
 6 | HDMI 케이블 | ![캡처18](https://user-images.githubusercontent.com/48484193/70634484-a698bb00-1c75-11ea-9798-800b76f0a2f5.PNG)
 7 |이더넷케이블(랜선) 또는 WiFi 동글 | ![캡처19](https://user-images.githubusercontent.com/48484193/70634650-eeb7dd80-1c75-11ea-9404-a7aef8498a38.PNG)
+
 [표1]
 
 ### 1.4 라즈베리파이 기본 연결
 
 ![캡처20](https://user-images.githubusercontent.com/48484193/70635226-e90ec780-1c76-11ea-8e25-a8081bc24d9a.PNG)
+
+
 [표1]의 구성품을 가지고 그림과 같이 연결한다.
 <br>
 

@@ -4,6 +4,12 @@
 </hr>
 ---
 
+[자동화 테이크아웃 컵 분리수거함(Smart Recycling Bin)](#자동화-테이크아웃-컵-분리수거함(Smart-Recycling-Bin))
+
+[설정](#설정)
+[1. 라즈베리 파이 (Raspberry Pi)](#라즈베리-파이-(Raspberry-Pi))
+[1.1 라즈베리파이란?](#라즈베리파이란)
+
 
 # 설정
 
@@ -772,15 +778,15 @@ if (search == 'take-out-cup'):
 이외의 상단부는 라즈베리파이로 제어한다.
 > 아두이노
 
-![아두이노1](https://user-images.githubusercontent.com/48484193/71242755-f8b29e00-2351-11ea-92fd-f385abadd8de.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71242755-f8b29e00-2351-11ea-92fd-f385abadd8de.PNG" height=300>
 
-![아두이노2](https://user-images.githubusercontent.com/48484193/71242788-0a944100-2352-11ea-8079-77c19054855b.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71242788-0a944100-2352-11ea-8079-77c19054855b.PNG" height=300>
 
 ![아두이노 회로도](https://user-images.githubusercontent.com/41332126/70626055-050a6d00-1c67-11ea-8177-dadf31c9aafb.png)
 
 > 라즈베리파이
 
-![라즈베리파이1](https://user-images.githubusercontent.com/48484193/71242818-1da71100-2352-11ea-8715-3a39f837307f.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71242818-1da71100-2352-11ea-8715-3a39f837307f.PNG" height=300>
 
 
 ![라즈베리파이 회로도](https://user-images.githubusercontent.com/41332126/70626205-50bd1680-1c67-11ea-9223-4dcd36918da6.png)

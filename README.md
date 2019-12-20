@@ -3,12 +3,53 @@
 딥러닝 기술과 하드웨어를 접목하여 테이크아웃 컵을 자동으로 분리 해주는 수거함을 제안한다. 커피 전문점을 이용하는 소비자가 증가함에 따라 테이크아웃 컵 쓰레기양 또한 증가하는 추세이다. 정부는 테이크아웃 컵 전용 쓰레기 수거함을 도입했지만, 목적과는 다르게 그 이외의 쓰레기들이 투기되고, 컵 안에 잔존하는 액체로 인해 제대로 분리수거가 이루어지지 않는 실상이다. 또한 길거리에 버려진 테이크아웃 컵들은 도시의 미관을 해칠 뿐만 아니라, 수거 과정에도 어려움을 겪게 한다. 이에 따라 제안하는 시스템은 카페를 이용하는 소비자의 편의성 제고 및 업체의 번거로움을 줄여주고 최근 화두 되는 환경적 문제에도 긍정적 영향이 미칠 것으로 기대된다.  
 </hr>
 ---
+# 목차
+- 자동화 테이크아웃 컵 분리수거함(Smart Recycling Bin)
 
-[자동화 테이크아웃 컵 분리수거함(Smart Recycling Bin)](#자동화-테이크아웃-컵-분리수거함(Smart-Recycling-Bin))
+- 설정
+- 1.라즈베리 파이 (Raspberry Pi)
+	- 1.1 라즈베리파이란?
+	- 1.2 라즈베리파이3 주요부 명칭
+	- 1.3 라즈베리파이 연결하기
+	- 1.4 라즈베리파이 기본 연결
+- 2.OpenCV
+	- 2.1 OpenCV란?
+	- 2.2 설치방법
+- 3.PiCam
+	- 3.1 PiCam 장착을 위한 라즈베리 파이 준비
+	- 3.2 PiCam 장착하기
+	- 3.3 PiCam 테스트
 
-[설정](#설정)
-[1. 라즈베리 파이 (Raspberry Pi)](#라즈베리-파이-(Raspberry-Pi))
-[1.1 라즈베리파이란?](#라즈베리파이란)
+- 소프트웨어
+- 4.러닝(Deep Learning) 모델 - Tiny YOLOv3
+	- 4.1.1 How It Works?
+	- 4.1.2 Advantage
+	- 4.2 Selenium Library를 활용한 image Crawling
+		- 4.2.1 anaconda prompt설치
+		- 4.2.2 Jupyter
+		     - Selenium Library
+		- 4.2.3 Selenium 설치
+		- 4.2.4 크롬드라이버(Chrome Driver) 설치
+		- 4.2.5 코드
+		- 4.2.6 결과
+	- 4.3 Tiny YOLOv3 학습 환경
+		- 4.3.1. 적용 모델 컴퓨터 사양
+		- 4.3.2 학습에 필요한 프로그램 설치
+		- 4.3.3. 설치 파일 경로 (PATH)
+		- 4.3.4. install YOLO-Marker, darknet from git
+	- 4.4 윈도우 환경에서 Tiny YOLOv3 모델 이미지 학습
+		- 4.4.1. Data Labeling - YOLO Marker
+		- 4.4.2 Set Model (Image Data 학습)
+		- 4.4.3 Raspberry PI에 Tiny YOLOv3 적용하기
+		- 4.4.4 서보모터 구동하기
+
+- 하드웨어
+- 5.알고리즘
+	- 5.1 순서도
+	- 5.2 회로도 & 코드
+	- 5.3 사용된 부품들
+
+- 6.동작
 
 
 # 설정
@@ -103,7 +144,6 @@ C/C++ 프로그래밍 언어로 개발 되었으며 Python, Java 및 MATLAB에�
 
 ### 3.1 PiCam 장착을 위한 라즈베리 파이 준비
 1\) PiCam을 연결하지 않은 상태에서 Pi에 전원을 공급한다.
-
 2\) 터미널 프롬프트에서 소프트웨어를 업그레이드 한다.
 ```shell
 $ sudo apt-get update && sudo apt-get upgrade -y
@@ -374,7 +414,6 @@ print(succounter, "succesfully download")
 	(4). git clone https://github.com/AlexeyAB/Yolo_mark.git <br>
 	
 4.3 Result
-
 <img  src = "https://user-images.githubusercontent.com/48505947/70607600-15f4b780-1c42-11ea-89cc-c325a5035320.png"  width = "800px" ></img>
 <br>
 4.4 Insert Image Data
@@ -432,10 +471,10 @@ print(succounter, "succesfully download")
 1.3. Image Labeling
 <br>
 
-- 마우스로 사진의 좌표를 잡아준다.
-
+ - 마우스로 사진의 좌표를 잡아준다.
 <img  src = "https://user-images.githubusercontent.com/48505947/70614373-c4eac080-1c4d-11ea-9957-18a8dc77721e.PNG"  width = "600x"  height="500px"></img>
 <br>
+
  - 메모장에는 4꼭지점의 좌표로 저장된다.
  <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70614456-f4013200-1c4d-11ea-98e0-777a6e6a48f5.PNG"  height="130px"></img>

@@ -4,11 +4,53 @@
 </hr>
 ---
 
-[자동화 테이크아웃 컵 분리수거함(Smart Recycling Bin)](#자동화-테이크아웃-컵-분리수거함(Smart-Recycling-Bin))
+# 목차
+- 자동화 테이크아웃 컵 분리수거함(Smart Recycling Bin)
 
-[설정](#설정)
-[1. 라즈베리 파이 (Raspberry Pi)](#라즈베리-파이-(Raspberry-Pi))
-[1.1 라즈베리파이란?](#라즈베리파이란)
+- [설정](#설정)
+- 1.라즈베리 파이 (Raspberry Pi)
+	- 1.1 라즈베리파이란?
+	- 1.2 라즈베리파이3 주요부 명칭
+	- 1.3 라즈베리파이 연결하기
+	- 1.4 라즈베리파이 기본 연결
+- [2.OpenCV](#opencv)
+	- [2.1 OpenCV란?](#opencv란)
+	- [2.2 설치방법](#설치방법)
+- [3.PiCam](#picam)
+	- 3.1 PiCam 장착을 위한 라즈베리 파이 준비
+	- 3.2 PiCam 장착하기
+	- 3.3 PiCam 테스트
+
+- [소프트웨어](#소프트웨어)
+- 4.러닝(Deep Learning) 모델 - Tiny YOLOv3
+	- 4.1.1 How It Works?
+	- 4.1.2 Advantage
+	- 4.2 Selenium Library를 활용한 image Crawling
+		- 4.2.1 anaconda prompt설치
+		- 4.2.2 Jupyter
+		     - Selenium Library
+		- 4.2.3 Selenium 설치
+		- 4.2.4 크롬드라이버(Chrome Driver) 설치
+		- 4.2.5 코드
+		- 4.2.6 결과
+	- 4.3 Tiny YOLOv3 학습 환경
+		- 4.3.1. 적용 모델 컴퓨터 사양
+		- 4.3.2 학습에 필요한 프로그램 설치
+		- 4.3.3. 설치 파일 경로 (PATH)
+		- 4.3.4. install YOLO-Marker, darknet from git
+	- 4.4 윈도우 환경에서 Tiny YOLOv3 모델 이미지 학습
+		- 4.4.1. Data Labeling - YOLO Marker
+		- 4.4.2 Set Model (Image Data 학습)
+		- 4.4.3 Raspberry PI에 Tiny YOLOv3 적용하기
+		- 4.4.4 서보모터 구동하기
+
+- [하드웨어](#하드웨어)
+- [5.알고리즘](#알고리즘)
+	- [5.1 순서도](#순서도)
+	- 5.2 회로도 & 코드
+	- [5.3 사용된 부품들](#사용된-부품들)
+
+- [6.동작](#동작)
 
 
 # 설정

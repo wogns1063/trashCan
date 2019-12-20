@@ -546,6 +546,7 @@ C:\yolo\Yolo_mark\x64\Release\data 경로에 Labeling 과정을 마친
 > ./darknet detector demo data/obj.data cfg/yolov3-tiny.cfg backup/yolov3-tiny_last.weights
 ```
 ![실시간사물인식](https://user-images.githubusercontent.com/48505947/70638878-f929a580-1c7c-11ea-860e-6461a67f169b.gif)
+<br>
 참고한 사이트(https://pjreddie.com/darknet/yolo/)
 <br>
 
@@ -646,7 +647,7 @@ layersNames = net.getLayerNames()
 # Get the names of the output layers, i.e. the layers with unconnected outputs
 return [layersNames[i[0] - 1] for i in net.getUnconnectedOutLayers()]
 ```
-output Layer에서 이름을 가져온다. (obj.names => take-out-cup)
+- output Layer에서 이름을 가져온다. (obj.names => take-out-cup)
 
 3.6 classify_frame 함수 설명
 ```python
@@ -698,7 +699,7 @@ def postprocess(self, frame, outs):
 				confidences.append(float(confidence))
 				boxes.append([left, top, width, height])
 ```
-object가 탐지될 때 보여줄 값을 배열화 감지된 object의 확률이 50% 이상이라면, classID(take-out-cup), 높이와 넓이, 사각형의 꼭지점 좌표를 반환후 배열에 저장
+- object가 탐지될 때 보여줄 값을 배열화 감지된 object의 확률이 50% 이상이라면, classID(take-out-cup), 높이와 넓이, 사각형의 꼭지점 좌표를 반환후 배열에 저장
 
 3.8 drawped 함수 설명
 ```python
@@ -722,7 +723,7 @@ def drawPred(self, frame ,classId, conf, left, top, right, bottom):
 		cv.rectangle(frame, (left, top - round(1.5*labelSize[1])), (left + round(1.5*labelSize[0]), top + baseLine), (255, 255, 255), cv.FILLED)
 		cv.putText(frame, label, (left, top), cv.FONT_HERSHEY_SIMPLEX, 0.75, (0,0,0), 1)
 ```
-만약 classes[classId]인 take-out-cup이 있다면 frame의 object에 labeling을 해준다.
+- 만약 classes[classId]인 take-out-cup이 있다면 frame의 object에 labeling을 해준다.
 
 3.9 결과 
 
@@ -1100,54 +1101,71 @@ complete = 0
 1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지
 
 ![캡처12](https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG)
+
 2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
 
 ![캡처13](https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG)
+
 3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기
 
 ![캡처14](https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG)
+
 4. Servo Motor (MTS-A410SE) - 3번 모터 제어
 
 ![캡처15](https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG)
+
 5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전
 
 ![캡처16](https://user-images.githubusercontent.com/48484193/71244799-ade75500-2356-11ea-8158-0cf783935678.PNG)
+
 6. Standard Gripper Kit A (637094) [ROB-13174] - 컵 고정
 
 ![캡처17](https://user-images.githubusercontent.com/48484193/71244857-cb1c2380-2356-11ea-9fdc-8987d834683e.PNG)
+
 7. NTS0090 아날로그 서보모터 - 그리퍼 제어
 
 ![캡처18](https://user-images.githubusercontent.com/48484193/71245817-e12ae380-2358-11ea-9196-38b68ae19635.PNG)
+
 8. 미니 랜턴 - 컵에 빛 투과
 
 ![캡처19](https://user-images.githubusercontent.com/48484193/71244940-f141c380-2356-11ea-8ea4-038a18367546.PNG)
+
 9. 아두이노 우노 R3 호환보드 [SZH-EK002]
 
 ![캡처20](https://user-images.githubusercontent.com/48484193/71244961-fef74900-2356-11ea-94de-a4b31384a2a7.PNG)
+
 10. TowerPro 호환 9g 미니 서보모터 SG-90 - 투입구 여닫이
 
 ![캡처21](https://user-images.githubusercontent.com/48484193/71244990-0dddfb80-2357-11ea-8a91-3b6bd8150ee5.PNG)
+
 11. 라즈베리파이3 (Raspberry Pi 3 Model B) + 방열판
 
 ![캡처22](https://user-images.githubusercontent.com/48484193/71246173-85148f00-2359-11ea-80cd-006c1b94e06d.PNG)
+
 12. 브레드보드 400핀 Half Size Breadboard [SZH-BBAD-005]
 
 ![캡처23](https://user-images.githubusercontent.com/48484193/71245096-572e4b00-2357-11ea-8f52-b1c1b1351c66.PNG)
+
 13. 점퍼와이어 M/M, M/F, F/F
 
 ![캡처24](https://user-images.githubusercontent.com/48484193/71245138-6d3c0b80-2357-11ea-8ba6-8b696ce89d6f.PNG)
+
 14. AA배터리 건전지홀더 전원타입[4개입] - 서보모터에 전원 공급
 
 ![캡처25](https://user-images.githubusercontent.com/48484193/71245784-cbb5b980-2358-11ea-8249-73e2820686a6.PNG)
+
 15. KC인증 정품 알카라인 AA건전지/AA배터리 AA LR06 벌크형
 
 ![캡처26](https://user-images.githubusercontent.com/48484193/71245756-bd679d80-2358-11ea-952c-a03c25953186.PNG)
+
 16. 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
 
 ![캡처27](https://user-images.githubusercontent.com/48484193/71245683-9c9f4800-2358-11ea-9025-46860f56d1e5.PNG)
+
 17. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
 
 ![캡처28](https://user-images.githubusercontent.com/48484193/71245619-7bd6f280-2358-11ea-857a-700fc3b066a1.PNG)
+
 18. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
 
 <!--
@@ -1158,7 +1176,9 @@ complete = 0
 <br>
 
 ## 6. 동작
-![전체동작](http://img.youtube.com/vi/vKi94sMjuI0/0.jpg)](https://youtu.be/vKi94sMjuI0) 전체 동작
+![전체동작](http://img.youtube.com/vi/vKi94sMjuI0/0.jpg)
+<br>
+(https://youtu.be/vKi94sMjuI0) 전체 동작
 
 <!--[![롯데리아](http://img.youtube.com/vi/HyUIKzlGqmU/1.jpg)](https://www.youtube.com/watch?v=HyUIKzlGqmU) 롯데리아 [![스타벅스](http://img.youtube.com/vi/tz4IzEW01kU/1.jpg)](https://www.youtube.com/watch?v=tz4IzEW01kU) 스타벅스 [![빽다방](http://img.youtube.com/vi/mZxCZR2VMDo/1.jpg)](https://www.youtube.com/watch?v=mZxCZR2VMDo) 뻭다방 [![팬도로시(ICE)](http://img.youtube.com/vi/lh_GckbTddM/1.jpg)](https://www.youtube.com/watch?v=lh_GckbTddM) 팬도로시(ICE) [![팬도로시(HOT)](http://img.youtube.com/vi/GYUEwOkC71I/1.jpg)](https://www.youtube.com/watch?v=GYUEwOkC71I) 팬도로시(HOT)-->
 

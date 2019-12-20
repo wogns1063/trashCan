@@ -313,6 +313,7 @@ print(succounter, "succesfully download")
 3. 키보드의 [F12]키를 누르거나 브라우저 오른쪽 상단의 [메뉴→도구더보기→개발자 도구]를 클릭하여 이미지 부분에 해당하는 클래스명을 확인한다.
 <br>
 ![딥러닝1](https://user-images.githubusercontent.com/48484193/71239520-17149b80-234a-11ea-998a-bc4e8f3865af.PNG)
+<br>
 4. 이미지를 'searchterm'과 동일한 폴더에 저장한다. 이때 폴더가 존재하지 않으면 자동으로 생성한다.
 
 ### 4.2.6 결과

@@ -772,13 +772,16 @@ if (search == 'take-out-cup'):
 이외의 상단부는 라즈베리파이로 제어한다.
 > 아두이노
 
-![아두이노1](https://user-images.githubusercontent.com/41332126/70627631-ec4f8680-1c69-11ea-9ce1-dbcb51250fca.jpg =450x) ![아두이노2](https://user-images.githubusercontent.com/41332126/70627637-efe30d80-1c69-11ea-881c-fb4ff8e7d40a.jpg =450x)
+![아두이노1](https://user-images.githubusercontent.com/48484193/71242755-f8b29e00-2351-11ea-92fd-f385abadd8de.PNG)
+
+![아두이노2](https://user-images.githubusercontent.com/48484193/71242788-0a944100-2352-11ea-8079-77c19054855b.PNG)
 
 ![아두이노 회로도](https://user-images.githubusercontent.com/41332126/70626055-050a6d00-1c67-11ea-8177-dadf31c9aafb.png)
 
 > 라즈베리파이
 
-![라즈베리파이1](https://user-images.githubusercontent.com/41332126/70628748-10ac6280-1c6c-11ea-95c8-6123a388d533.jpg =500x)
+![라즈베리파이1](https://user-images.githubusercontent.com/48484193/71242818-1da71100-2352-11ea-8715-3a39f837307f.PNG)
+
 
 ![라즈베리파이 회로도](https://user-images.githubusercontent.com/41332126/70626205-50bd1680-1c67-11ea-9223-4dcd36918da6.png)
 

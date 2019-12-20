@@ -21,7 +21,7 @@
 	- 3.2 PiCam 장착하기
 	- 3.3 PiCam 테스트
 
-- 소프트웨어
+- [소프트웨어](#소프트웨어)
 - 4.러닝(Deep Learning) 모델 - Tiny YOLOv3
 	- 4.1.1 How It Works?
 	- 4.1.2 Advantage

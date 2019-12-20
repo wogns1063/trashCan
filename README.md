@@ -103,6 +103,7 @@ C/C++ 프로그래밍 언어로 개발 되었으며 Python, Java 및 MATLAB에�
 
 ### 3.1 PiCam 장착을 위한 라즈베리 파이 준비
 1\) PiCam을 연결하지 않은 상태에서 Pi에 전원을 공급한다.
+
 2\) 터미널 프롬프트에서 소프트웨어를 업그레이드 한다.
 ```shell
 $ sudo apt-get update && sudo apt-get upgrade -y
@@ -373,6 +374,7 @@ print(succounter, "succesfully download")
 	(4). git clone https://github.com/AlexeyAB/Yolo_mark.git <br>
 	
 4.3 Result
+
 <img  src = "https://user-images.githubusercontent.com/48505947/70607600-15f4b780-1c42-11ea-89cc-c325a5035320.png"  width = "800px" ></img>
 <br>
 4.4 Insert Image Data
@@ -430,10 +432,10 @@ print(succounter, "succesfully download")
 1.3. Image Labeling
 <br>
 
- - 마우스로 사진의 좌표를 잡아준다.
+- 마우스로 사진의 좌표를 잡아준다.
+
 <img  src = "https://user-images.githubusercontent.com/48505947/70614373-c4eac080-1c4d-11ea-9957-18a8dc77721e.PNG"  width = "600x"  height="500px"></img>
 <br>
-
  - 메모장에는 4꼭지점의 좌표로 저장된다.
  <br>
 <img  src = "https://user-images.githubusercontent.com/48505947/70614456-f4013200-1c4d-11ea-98e0-777a6e6a48f5.PNG"  height="130px"></img>

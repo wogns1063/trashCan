@@ -274,7 +274,7 @@ browser.get(url)
 ```
 1. 변수 searchterm에 찾고자 하는 검색어를 입력해준다.
 2. 변수 url에 검색어를 입력하고 이미지를 클릭했을 때의 url주소를 넣어준다.
-3.  chrome webdriver 사용하여 chrome 브라우저가 자동으로 실행된다.
+3. chrome webdriver 사용하여 chrome 브라우저가 자동으로 실행된다.
 
 <img  src="https://user-images.githubusercontent.com/48309721/70614750-6d992000-1c4e-11ea-9b47-5f23466d61aa.PNG" width="700">
 
@@ -521,6 +521,7 @@ C:\yolo\Yolo_mark\x64\Release\data 경로에 Labeling 과정을 마친
 	
 
 2.5 이미지 학습 결과
+
 - 그래프
 <img  src = "https://user-images.githubusercontent.com/48505947/70630131-6550dd00-1c6e-11ea-8d3c-a7ed3409e30c.PNG"  width = "350px" ></img>
 
@@ -715,7 +716,8 @@ def drawPred(self, frame ,classId, conf, left, top, right, bottom):
 ```
 만약 classes[classId]인 take-out-cup이 있다면 frame의 object에 labeling을 해준다.
 
-3.9 결과
+3.9 결과 
+
 <img  src = "https://user-images.githubusercontent.com/48505947/70644206-e7003500-1c85-11ea-8eda-c3125944b999.jpg"  width = "300px"  height="250px"></img>
 <br>
 

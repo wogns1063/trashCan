@@ -6,8 +6,8 @@ import serial
 GPIO.setwarnings(False) 
 GPIO.setmode(GPIO.BCM)  # GPIO pin Reference method 
 
-IrSensor = 23 # IR Sensor
-GPIO.setup(IrSensor, GPIO.IN)
+Ir = 23 # IR Sensor
+GPIO.setup(Ir, GPIO.IN)
 
 openershaft = 19 # opener shaft
 GPIO.setup(openershaft , GPIO.OUT)
@@ -78,7 +78,7 @@ class IrSensor(threading.Thread):    #irsensor thread class
             if self.__exit:
                 break
             else:
-                val = GPIO.input(IrSensor) #irsensor value       
+                val = GPIO.input(Ir) #irsensor value       
                 GripperAction(val)
     def myExit(self): # exit thread
         self.__exit = True       

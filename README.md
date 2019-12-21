@@ -1146,106 +1146,41 @@ complete = 0
 
 ### 5.3 사용된 부품들
 
-1. <img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/38487.jpg" height="100x"> 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지</img> <br><br>
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/38487.jpg" height="80px">  1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지</img> <br><br>
 
-2. [![조도 센서](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/33235.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=33235) CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/33235.jpg" height="80px">  2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
 
-3. [![서보 모터](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1265392.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1265392) 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1265392.jpg" height="80px">  3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기
 
-4. [![서보 모터](http://robomecha.co.kr/web/product/big/robomecha_49.jpg =100x)](http://robomecha.co.kr/product/servo-motor-mts-a410se/49/) Servo Motor (MTS-A410SE) - 
+<img src="http://robomecha.co.kr/web/product/big/robomecha_49.jpg" height="80px">  4. Servo Motor (MTS-A410SE) - 3번 모터 제어
 
-5. [![서보 모터](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/200803051448440.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=11225) 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/200803051448440.jpg" height="80px">  5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전
 
-6. [![로봇팔](http://www.devicemart.co.kr/data/collect_img/kind_0/fogoods/large/1278810.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1278810) Standard Gripper Kit A (637094) [ROB-13174] - 컵 고정
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/fogoods/large/1278810.jpg" height="80px">  6. Standard Gripper Kit A (637094) [ROB-13174] - 컵 고정
 
-7. [![서보 모터](https://user-images.githubusercontent.com/41332126/70533270-19356800-1b9c-11ea-89f4-d5958f5ed757.png =100x)](http://www.11st.co.kr/product/SellerProductDetail.tmall?method=getSellerProductDetail&prdNo=822576342) NTS0090 아날로그 서보모터 - 그리퍼 제어
+<img src="https://user-images.githubusercontent.com/41332126/70533270-19356800-1b9c-11ea-89f4-d5958f5ed757.png" height="80px">  7. NTS0090 아날로그 서보모터 - 그리퍼 제어
 
-8. ![미니 랜턴](http://image.auction.co.kr/itemimage/12/0c/27/120c278486.jpg =100x) 미니 랜턴 - 컵에 빛 투과
+<img src="http://image.auction.co.kr/itemimage/12/0c/27/120c278486.jpg" height="80px">  8. 미니 랜턴 - 컵에 빛 투과
 
-9. [![아두이노](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1245596_3.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1245596) 아두이노 우노 R3 호환보드 [SZH-EK002]
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1137914_2.jpg" height="80px">  9. TowerPro 호환 9g 미니 서보모터 SG-90 - 투입구 여닫이
 
-10. [![서보 모터](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1137914_2.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1128421) TowerPro 호환 9g 미니 서보모터 SG-90 - 투입구 여닫이
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1311414_1.jpg" height="80px">  10. 라즈베리파이3 (Raspberry Pi 3 Model B) + 방열판
 
-11. [![라즈베리파이](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1311414_1.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1311414) 라즈베리파이3 (Raspberry Pi 3 Model B) + 방열판
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1328148_1.jpg" height="80px">  11. 브레드보드 400핀 Half Size Breadboard [SZH-BBAD-005]
 
-12. [![브레드보드](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1328148_1.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1328148) 브레드보드 400핀 Half Size Breadboard [SZH-BBAD-005]
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1329628.jpg" height="80px">  12. 점퍼와이어 M/M, M/F, F/F
 
-13. ![점퍼 케이블](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1329628.jpg =100x) 점퍼와이어 M/M, M/F, F/F
+<img src="http://www.devicemart.co.kr/data/editor/goods/1/2004/06/3102_15508130374427.PN" height="80px">  13. AA배터리 건전지홀더 전원타입[4개입] - 서보모터에 전원 공급
 
-14. [![배터리홀더](http://www.devicemart.co.kr/data/editor/goods/1/2004/06/3102_15508130374427.PNG =100x)](http://www.devicemart.co.kr/goods/view?no=3102) AA배터리 건전지홀더 전원타입[4개입] - 서보모터에 전원 공급
+<img src="https://user-images.githubusercontent.com/41332126/70554192-0af94300-1bc0-11ea-8305-ae3375adecb6.png" height="80px">  14. KC인증 정품 알카라인 AA건전지/AA배터리 AA LR06 벌크형
 
-15. [![건전지](https://user-images.githubusercontent.com/41332126/70554192-0af94300-1bc0-11ea-8305-ae3375adecb6.png =100x)](http://www.devicemart.co.kr/goods/view?no=10843304) KC인증 정품 알카라인 AA건전지/AA배터리 AA LR06 벌크형
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1077951.jpg" height="80px">  15. 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
 
-16. [![카메라](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1077951.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=1077951) 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
+<img src="http://www.nulsom.com/design/default/images/p02-17-img-01.jpg" height="80px">  16. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
 
-17. [![티코블러](http://www.nulsom.com/design/default/images/p02-17-img-01.jpg =100x)]() T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
+<img src="https://user-images.githubusercontent.com/41332126/70539949-bc3faf00-1ba7-11ea-99e4-64b091022261.png" height="80px">  17. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
 
-18. [![고무](https://user-images.githubusercontent.com/41332126/70539949-bc3faf00-1ba7-11ea-99e4-64b091022261.png =100x)](https://search.shopping.naver.com/search/all.nhn?query=%EB%AF%B8%ED%82%A4%EB%A7%88%EC%9A%B0%EC%8A%A4+%EB%85%BC%EC%8A%AC%EB%A6%BD%ED%8C%A8%EB%93%9C+%EC%8A%AC%EB%A6%BC%ED%98%95&cat_id=&frm=NVSHATC) 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
-
-<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="80px" > 1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지</img> <br><br>
-
-<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="75px" > 2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지</img> <br><br>
-
-<img src="https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG" height="75px" >
-3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기</img><br>
-
-<img src="https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG" height="75px" >
-4. Servo Motor (MTS-A410SE) - 3번 모터 제어<br><br>
-
-<img src="https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG" height="75px" >
-5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전<br><br>
-
-![캡처16](https://user-images.githubusercontent.com/48484193/71244799-ade75500-2356-11ea-8158-0cf783935678.PNG)
-
-6. Standard Gripper Kit A (637094) [ROB-13174] - 컵 고정
-
-![캡처17](https://user-images.githubusercontent.com/48484193/71244857-cb1c2380-2356-11ea-9fdc-8987d834683e.PNG)
-
-7. NTS0090 아날로그 서보모터 - 그리퍼 제어
-
-![캡처18](https://user-images.githubusercontent.com/48484193/71245817-e12ae380-2358-11ea-9196-38b68ae19635.PNG)
-
-8. 미니 랜턴 - 컵에 빛 투과
-
-![캡처19](https://user-images.githubusercontent.com/48484193/71244940-f141c380-2356-11ea-8ea4-038a18367546.PNG)
-
-9. 아두이노 우노 R3 호환보드 [SZH-EK002]
-
-![캡처20](https://user-images.githubusercontent.com/48484193/71244961-fef74900-2356-11ea-94de-a4b31384a2a7.PNG)
-
-10. TowerPro 호환 9g 미니 서보모터 SG-90 - 투입구 여닫이
-
-![캡처21](https://user-images.githubusercontent.com/48484193/71244990-0dddfb80-2357-11ea-8a91-3b6bd8150ee5.PNG)
-
-11. 라즈베리파이3 (Raspberry Pi 3 Model B) + 방열판
-
-![캡처22](https://user-images.githubusercontent.com/48484193/71246173-85148f00-2359-11ea-80cd-006c1b94e06d.PNG)
-
-12. 브레드보드 400핀 Half Size Breadboard [SZH-BBAD-005]
-
-![캡처23](https://user-images.githubusercontent.com/48484193/71245096-572e4b00-2357-11ea-8f52-b1c1b1351c66.PNG)
-
-13. 점퍼와이어 M/M, M/F, F/F
-
-![캡처24](https://user-images.githubusercontent.com/48484193/71245138-6d3c0b80-2357-11ea-8ba6-8b696ce89d6f.PNG)
-
-14. AA배터리 건전지홀더 전원타입[4개입] - 서보모터에 전원 공급
-
-![캡처25](https://user-images.githubusercontent.com/48484193/71245784-cbb5b980-2358-11ea-8249-73e2820686a6.PNG)
-
-15. KC인증 정품 알카라인 AA건전지/AA배터리 AA LR06 벌크형
-
-![캡처26](https://user-images.githubusercontent.com/48484193/71245756-bd679d80-2358-11ea-952c-a03c25953186.PNG)
-
-16. 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
-
-![캡처27](https://user-images.githubusercontent.com/48484193/71245683-9c9f4800-2358-11ea-9025-46860f56d1e5.PNG)
-
-17. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
-
-![캡처28](https://user-images.githubusercontent.com/48484193/71245619-7bd6f280-2358-11ea-857a-700fc3b066a1.PNG)
-
-18. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1245596_3.jpg" height="80px">  18. 아두이노 우노 R3 호환보드 [SZH-EK002]
 
 <!--
 [![폼보드](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/200707141834210.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=10114) 3T 포맥스(검정색) 450x450(mm) - 외관 제작[![접착제](http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/201007121425170.jpg =100x)](http://www.devicemart.co.kr/goods/view?no=24965) 우드락 접착제 UHU-Por 50ml

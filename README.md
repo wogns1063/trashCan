@@ -868,7 +868,8 @@ import serial       #아두이노와 시리얼 통신을 하기위한 모듈
 GPIO.setwarnings(False) 
 GPIO.setmode(GPIO.BCM)   #핀 번호를 지정할 때 GPIO번호 참조
 
-GPIO.setup(23, GPIO.IN)  #IR SENSOR Vout
+IrSensor = 23 
+GPIO.setup(IrSensor, GPIO.IN)  #IR SENSOR Vout
 
 openershaft = 19  #opener shaft
 GPIO.setup(openershaf, GPIO.OUT)
@@ -987,7 +988,7 @@ complete = 0
                     if self.__exit:
                         break
                     else:
-                        val = GPIO.input(23)    #IRsensor value       
+                        val = GPIO.input(IrSensor)    #IRsensor value       
                         throwawayLid(val)
 
             def myExit(self):   #exit thread

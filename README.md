@@ -831,7 +831,6 @@ if (search == 'take-out-cup'):
 > 아두이노
 
 <img src="https://user-images.githubusercontent.com/48484193/71242755-f8b29e00-2351-11ea-92fd-f385abadd8de.PNG" height=300>
-
 <img src="https://user-images.githubusercontent.com/48484193/71242788-0a944100-2352-11ea-8079-77c19054855b.PNG" height=300>
 
 ![아두이노 회로도](https://user-images.githubusercontent.com/41332126/70626055-050a6d00-1c67-11ea-8177-dadf31c9aafb.png)
@@ -870,12 +869,12 @@ Gripper = GPIO.PWM(gripper, 50)
 Gripper.start(0)
 Gripper.ChangeDutyCycle(6)  #default value
 
-leftshaft = 13  #left shaft
+leftshaft = 13  #left shaft that spins left gripper
 GPIO.setup(leftshaft, GPIO.OUT)
 LeftShaft = GPIO.PWM(leftshaft, 50)
 LeftShaft.start(0)
 
-rightshaft = 18  #right shaft
+rightshaft = 18  #right shaft that spins right gripper
 GPIO.setup(rightshaft, GPIO.OUT)
 RightShaft = GPIO.PWM(rightshaft, 50)
 RightShaft.start(0)
@@ -907,44 +906,44 @@ complete = 0
 
     ```c
     void loop() {
-        String c = Serial.readStringUntil('\n');
+        String str = Serial.readStringUntil('\n');
 
-        if( c == "opener on" ){  // OPENER ON
+        if( str == "opener on" ){  // OPENER ON
             for (pos=60; pos<=250; pos+=1){
                 opener.write(pos);
                 delay(1);
             }
         }
-        if( c == "return" ){  // OPENER return
+        if( str == "return" ){  // OPENER return
             for (pos=250; pos>=60; pos-=1){
                 opener.write(pos);
                 delay(1);
             }
         }    
-        if( c == "liquid" ){  // liquid
+        if( str == "liquid" ){  // liquid
             bottom.write(0);
         }
-        if( c == "paper" ) {  // paper
+        if( str == "paper" ) {  // paper
             bottom.write(90);
         }
-        if( c == "plastic" ){  // plastic
+        if( str == "plastic" ){  // plastic
             bottom.write(180); 
         }
 
-        while( c == "ReadCdsVal" ) {   // read of sensor value
+        while( str == "ReadCdsVal" ) {   // read of sensor value
             int val = analogRead(cds);
             Serial.println(val);
             delay(1);
 
-            String c = Serial.readStringUntil('\n');  
-            if( c == "break" ) {
+            String s = Serial.readStringUntil('\n');  
+            if( s == "break" ) {
                 break;
             }
         }
     }
     ```
-    String 변수 c 에 시리얼 통신을 통해 들어오는 값을 저장한 후에<br>
-    c 로 들어오는 값에 따라 서보모터를 작동하거나 조도센서 값을 받아온다.<br><br>
+    String 변수 str 에 시리얼 통신을 통해 들어오는 값을 저장한 후에<br>
+    str 로 들어오는 값에 따라 서보모터를 작동하거나 조도센서 값을 받아온다.<br><br>
 
 - >라즈베리파이
 
@@ -977,7 +976,7 @@ complete = 0
                         break
                     else:
                         val = GPIO.input(23)    #IRsensor value       
-                        step1 (val)
+                        throwawayLid(val)
 
             def myExit(self):   #exit thread
                 self.__exit = True
@@ -995,15 +994,15 @@ complete = 0
                     else:
                         val = ser.readline()    # 아두이노로부터 조도 센서값을 받아온다.
                         Cdsval = int(val.decode('utf-8')) # 조도 센서값을 int로 형태 변환
-                        step2(Cdsval) 
+                        throwawayCup(Cdsval) 
 
             def myExit(self):   #exit thread
                 self.__exit = True
         ```
 
-    - #### IR sensor로부터 값을 받아와 step1 메서드 실행
+    - #### IR sensor로부터 값을 받아와 throwawayLid 메서드 실행
         ```python
-        def step1(val): #val = GPIO.input(23) <= IRsensor value
+        def throwawayLid(val): #val = GPIO.input(23) <= IRsensor value
             global complete
 
             Irval = val
@@ -1052,9 +1051,9 @@ complete = 0
                 complete = 1
         ```
 
-    - #### 조도센서로부터 값을 받아와 step2 메서드 실행
+    - #### 조도센서로부터 값을 받아와 throwawayCup 메서드 실행
         ```python
-        def step2(val):  # val = ser.readline()
+        def throwawayCupval):  # val = ser.readline()
             global complete
 
             Cdsval = val
@@ -1126,13 +1125,13 @@ complete = 0
         ```python
         while True:
             #컵이 들어오는 동작 감지
-            print('step1 start')
+            print('throwawayLid start')
             th = IrSensor()
-            th.start()  #step1() - 뚜껑 따기, 액체 버리기
+            th.start()  #throwawayLid() - 뚜껑 따기, 액체 버리기
 
             while True:
-                if complete == 1 :  #step1() 동작이 성공적으로 완료되면 
-                    print('step2 start')
+                if complete == 1 :  #throwawayLid() 동작이 성공적으로 완료되면 
+                    print('throwawayCup start')
 
                     arg = "ReadCdsVal"  #read cds val at arduino
                     ser.write(arg.encode())
@@ -1146,22 +1145,23 @@ complete = 0
 <br/>
 
 ### 5.3 사용된 부품들
-![캡처11](https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG) 
+<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="100px" >
+
 1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지
 
-![캡처12](https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="100px" >
 
 2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
 
-![캡처13](https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG" height="100px" >
 
 3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기
 
-![캡처14](https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG" height="100px" >
 
 4. Servo Motor (MTS-A410SE) - 3번 모터 제어
 
-![캡처15](https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG)
+<img src="https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG" height="100px" >
 
 5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전
 

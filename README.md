@@ -1195,7 +1195,3 @@ complete = 0
 (https://youtu.be/vKi94sMjuI0) 전체 동작
 
 <!--[![롯데리아](http://img.youtube.com/vi/HyUIKzlGqmU/1.jpg)](https://www.youtube.com/watch?v=HyUIKzlGqmU) 롯데리아 [![스타벅스](http://img.youtube.com/vi/tz4IzEW01kU/1.jpg)](https://www.youtube.com/watch?v=tz4IzEW01kU) 스타벅스 [![빽다방](http://img.youtube.com/vi/mZxCZR2VMDo/1.jpg)](https://www.youtube.com/watch?v=mZxCZR2VMDo) 뻭다방 [![팬도로시(ICE)](http://img.youtube.com/vi/lh_GckbTddM/1.jpg)](https://www.youtube.com/watch?v=lh_GckbTddM) 팬도로시(ICE) [![팬도로시(HOT)](http://img.youtube.com/vi/GYUEwOkC71I/1.jpg)](https://www.youtube.com/watch?v=GYUEwOkC71I) 팬도로시(HOT)-->
-
-
-
-

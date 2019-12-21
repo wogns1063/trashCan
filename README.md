@@ -1053,7 +1053,7 @@ complete = 0
 
     - #### 조도센서로부터 값을 받아와 throwawayCup 메서드 실행
         ```python
-        def throwawayCupval):  # val = ser.readline()
+        def throwawayCup(val):  # val = ser.readline()
             global complete
 
             Cdsval = val
@@ -1145,24 +1145,20 @@ complete = 0
 <br/>
 
 ### 5.3 사용된 부품들
-<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="100px" >
 
+<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="50px" >
 1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지
 
-<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="100px" >
-
+<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="50px" >
 2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
 
-<img src="https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG" height="100px" >
-
+<img src="https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG" height="50px" >
 3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기
 
-<img src="https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG" height="100px" >
-
+<img src="https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG" height="50px" >
 4. Servo Motor (MTS-A410SE) - 3번 모터 제어
 
-<img src="https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG" height="100px" >
-
+<img src="https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG" height="50px" >
 5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전
 
 ![캡처16](https://user-images.githubusercontent.com/48484193/71244799-ade75500-2356-11ea-8158-0cf783935678.PNG)

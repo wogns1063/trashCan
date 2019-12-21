@@ -1176,9 +1176,9 @@ complete = 0
 
 <img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1077951.jpg" height="80px">  15. 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
 															    
-<img src="http://www.nulsom.com/design/default/images/p02-17-img-01.jpg" height="90px">  16. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
+<img src="http://www.nulsom.com/design/default/images/p02-17-img-01.jpg" height="100px">  16. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
 
-<img src="https://user-images.githubusercontent.com/41332126/70539949-bc3faf00-1ba7-11ea-99e4-64b091022261.png" height="80px">  17. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
+<img src="https://user-images.githubusercontent.com/41332126/70539949-bc3faf00-1ba7-11ea-99e4-64b091022261.png" height="70px">  17. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
 
 <img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/detail/1245596_3.jpg" height="80px">  18. 아두이노 우노 R3 호환보드 [SZH-EK002]
 

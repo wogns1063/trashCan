@@ -1146,20 +1146,18 @@ complete = 0
 
 ### 5.3 사용된 부품들
 
-<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="75px" >
-1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지<br>
+<img src="https://user-images.githubusercontent.com/48484193/71246957-19332600-235b-11ea-8886-1c42513c7325.PNG" height="80px" > 1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지</img> <br><br>
 
-<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="75px" >
-2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지<br>
+<img src="https://user-images.githubusercontent.com/48484193/71244249-70ce9300-2355-11ea-87ed-50dfc8c96c77.PNG" height="75px" > 2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지</img> <br><br>
 
 <img src="https://user-images.githubusercontent.com/48484193/71244291-85129000-2355-11ea-8af4-902b1929b645.PNG" height="75px" >
-3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기<br>
+3. 최고급형 메탈 서보모터-DT2100 - 뚜껑 열기</img><br>
 
 <img src="https://user-images.githubusercontent.com/48484193/71244330-98bdf680-2355-11ea-9468-47206417a677.PNG" height="75px" >
-4. Servo Motor (MTS-A410SE) - 3번 모터 제어<br>
+4. Servo Motor (MTS-A410SE) - 3번 모터 제어<br><br>
 
 <img src="https://user-images.githubusercontent.com/48484193/71244750-8f815980-2356-11ea-8922-2184fb446c03.PNG" height="75px" >
-5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전<br>
+5. 서보모터(HS-311) - 그리퍼 제어, 그리퍼 회전, 수거함 회전<br><br>
 
 ![캡처16](https://user-images.githubusercontent.com/48484193/71244799-ade75500-2356-11ea-8158-0cf783935678.PNG)
 

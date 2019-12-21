@@ -1146,7 +1146,7 @@ complete = 0
 
 ### 5.3 사용된 부품들
 
-<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/38487.jpg" height="70px">  1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지</img> <br><br>
+<img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/38487.jpg" height="70px">  1. 디지털 적외선 모션 센서 [SEN0018] - 물체 동작 감지
 
 <img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/33235.jpg" height="80px">  2. CdS 20파이 조도센서 (GL20528) - 빛 투과율 감지
 
@@ -1175,10 +1175,8 @@ complete = 0
 <img src="https://user-images.githubusercontent.com/41332126/70554192-0af94300-1bc0-11ea-8305-ae3375adecb6.png" height="80px">  14. KC인증 정품 알카라인 AA건전지/AA배터리 AA LR06 벌크형
 
 <img src="http://www.devicemart.co.kr/data/collect_img/kind_0/goods/large/1077951.jpg" height="80px">  15. 라즈베리파이 카메라모듈 V2 8MP - 물체 감지
-
-<img src="https://user-images.githubusercontent.com/48484193/71245683-9c9f4800-2358-11ea-9025-46860f56d1e5.PNG" height=80px">
 															    
-<img src="http://www.nulsom.com/design/default/images/p02-17-img-01.jpg" height="80px">  16. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
+<img src="http://www.nulsom.com/design/default/images/p02-17-img-01.jpg" height="90px">  16. T-Cobbler GPIO 확장보드 + 40핀 플랫케이블 - 라즈베리파이로 모터/센서 제어
 
 <img src="https://user-images.githubusercontent.com/41332126/70539949-bc3faf00-1ba7-11ea-99e4-64b091022261.png" height="80px">  17. 미키마우스 논슬립패드(슬림형) - 컵에 닿는 그리퍼 부분에 부착하여 미끄럼 방지
 
